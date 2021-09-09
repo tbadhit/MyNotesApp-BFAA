@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyNotesApp"
 include ':app'
+include ':consumerapp'

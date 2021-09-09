@@ -1,21 +1,19 @@
-package id.tbadhit.mynotesapp
+package id.tbadhit.consumerapp
 
 import android.content.Intent
 import android.database.ContentObserver
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread
 import android.view.View
-import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import id.tbadhit.mynotesapp.adapter.NoteAdapter
-import id.tbadhit.mynotesapp.databinding.ActivityMainBinding
-import id.tbadhit.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import id.tbadhit.mynotesapp.db.NoteHelper
-import id.tbadhit.mynotesapp.entity.Note
-import id.tbadhit.mynotesapp.helper.MappingHelper
+import id.tbadhit.consumerapp.adapter.NoteAdapter
+import id.tbadhit.consumerapp.databinding.ActivityMainBinding
+import id.tbadhit.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import id.tbadhit.consumerapp.entity.Note
+import id.tbadhit.consumerapp.helper.MappingHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
@@ -32,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar?.title = "Notes"
+        supportActionBar?.title = "Consumer Notes"
 
         binding.apply {
             rvNotes.layoutManager = LinearLayoutManager(this@MainActivity)

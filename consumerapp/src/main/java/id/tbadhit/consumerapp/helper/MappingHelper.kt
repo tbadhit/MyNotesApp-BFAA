@@ -1,12 +1,11 @@
-package id.tbadhit.mynotesapp.helper
+package id.tbadhit.consumerapp.helper
 
 import android.database.Cursor
-import id.tbadhit.mynotesapp.db.DatabaseContract
-import id.tbadhit.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import id.tbadhit.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
-import id.tbadhit.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TITLE
-import id.tbadhit.mynotesapp.db.DatabaseContract.NoteColumns.Companion._ID
-import id.tbadhit.mynotesapp.entity.Note
+import id.tbadhit.consumerapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import id.tbadhit.consumerapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
+import id.tbadhit.consumerapp.db.DatabaseContract.NoteColumns.Companion.TITLE
+import id.tbadhit.consumerapp.db.DatabaseContract.NoteColumns.Companion._ID
+import id.tbadhit.consumerapp.entity.Note
 
 object MappingHelper {
     // merubah cursor ke ArrayList

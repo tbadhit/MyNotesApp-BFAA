@@ -7,6 +7,9 @@
         <entry key="app/src/main/res/layout/activity_note_add_update.xml" value="0.21877975353358867" />
         <entry key="app/src/main/res/layout/item_note.xml" value="0.2880420401279005" />
         <entry key="app/src/main/res/menu/menu_form.xml" value="0.16574074074074074" />
+        <entry key="consumerapp/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14895833333333333" />
+        <entry key="consumerapp/src/main/res/layout/activity_main.xml" value="0.1328125" />
+        <entry key="consumerapp/src/main/res/layout/item_note.xml" value="0.1328125" />
       </map>
     </option>
   </component>
